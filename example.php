@@ -1,10 +1,7 @@
 <?php
 
+    require('vendor/autoload.php');
     require('./BreatheCodeAPI.php');
-    
-    $clientId = 'alesanchezr';
-    $clientSecret = 'd04f78ef196471d5a954fe71aab4fe63bd95a8a4';
-    $host = 'https://talenttree-alesanchezr.c9users.io/';
     
     use \BreatheCode\BCWrapper;
     BCWrapper::init($clientId, $clientSecret, $host, true);
